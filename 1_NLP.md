@@ -56,3 +56,7 @@
 
 * https://fr.wikipedia.org/wiki/Word_embedding
 * matrice d'imbrication (vectorisation de mots)
+
+* self-attention = calculer des références à l'aide de probabilité. e.g. "Le sac ne rentre pas car il est trop grand", "il" refère au "sac"
+* = comprendre à partir du contexte la référence
+* (Query/key/value) Question/clé/valeur
