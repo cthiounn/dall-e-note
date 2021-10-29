@@ -4,14 +4,17 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="19" value="Generative Model" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;verticalAlign=top;align=left;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="710" width="310" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="350" y="300" width="120" height="60" as="geometry"/>
-                </mxCell>
                 <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="110" y="60" width="660" height="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="(Deep) Neural Network" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;verticalAlign=top;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="340" width="660" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Computer vision" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;verticalAlign=top;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="370" width="650" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Generative Model" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;verticalAlign=top;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="530" width="310" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4" target="7" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -28,29 +31,23 @@
                 <mxCell id="7" value="AI-generated&lt;br&gt;Images" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;gradientColor=none;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="620" y="190" width="80" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="(Deep) Neural Network" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=left;verticalAlign=top;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="110" y="340" width="660" height="260" as="geometry"/>
-                </mxCell>
                 <mxCell id="12" value="NLP" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;verticalAlign=top;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="110" y="370" width="320" height="230" as="geometry"/>
-                </mxCell>
-                <mxCell id="13" value="Computer vision" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;verticalAlign=top;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="370" width="340" height="230" as="geometry"/>
+                    <mxGeometry x="120" y="640" width="320" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="GPT-2&lt;br&gt;GPT-3" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="130" y="430" width="120" height="80" as="geometry"/>
+                    <mxGeometry x="140" y="660" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="CNN-based image recognition" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;verticalAlign=middle;" parent="1" vertex="1">
                     <mxGeometry x="600" y="430" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="VQ-VAE" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="720" width="120" height="80" as="geometry"/>
+                    <mxGeometry x="440" y="540" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="GAN" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;verticalAlign=middle;dashed=1;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="620" width="120" height="80" as="geometry"/>
+                    <mxGeometry x="790" y="570" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="Basic concepts" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="-290" y="60" width="400" height="540" as="geometry"/>
+                    <mxGeometry x="-290" y="60" width="400" height="740" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="&lt;span&gt;Neural network :&lt;/span&gt;&lt;br&gt;&lt;span&gt;Forward propagation/ combinaison function / activation function&lt;/span&gt;&lt;br&gt;&lt;span&gt;Loss function&lt;/span&gt;&lt;br&gt;&lt;span&gt;Backpropagation / Gradient descent&lt;br&gt;Perceptron/MLP&lt;br&gt;&lt;/span&gt;" style="shape=card;whiteSpace=wrap;html=1;strokeWidth=2;align=left;verticalAlign=bottom;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="-270" y="120" width="130" height="140" as="geometry"/>
@@ -58,8 +55,14 @@
                 <mxCell id="24" value="NLP - Word embedding :&lt;br&gt;Vocabulary/ embedding matrix&lt;br&gt;Distributional hypothesis - TF-IDF - similary metrics (cosine, euclidian)" style="shape=card;whiteSpace=wrap;html=1;strokeWidth=2;align=left;verticalAlign=bottom;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="-120" y="120" width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="&lt;span&gt;Convolutional Neural network :&lt;br&gt;&lt;/span&gt;Spatial information (for image)&lt;br&gt;Convolutional layer / Convolutional operator-filter&lt;br&gt;Pooling layer (max/average; reduce dim; noise cancelling)&lt;br&gt;Fully connected layer ( -&amp;gt; MLP&amp;nbsp; ; softmax classification )" style="shape=card;whiteSpace=wrap;html=1;strokeWidth=2;align=left;verticalAlign=bottom;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+                <mxCell id="25" value="&lt;span&gt;Convolutional Neural network :&lt;br&gt;&lt;/span&gt;Spatial information (for image)&lt;br&gt;Convolutional layer / Convolutional operator-filter&lt;br&gt;Pooling layer (max/average; reduce dim; noise cancelling)&lt;br&gt;Fully connected layer ( -&amp;gt; MLP&amp;nbsp; ; softmax classification )" style="shape=card;whiteSpace=wrap;html=1;strokeWidth=2;align=left;verticalAlign=bottom;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="-270" y="300" width="200" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="26" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Image" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="80" width="80" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
