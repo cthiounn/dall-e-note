@@ -109,6 +109,9 @@ Pour cela, il faut :
 * Buts : 
     * associer un mot avec un vecteur dans R^n
     * calculer si deux mots sont proches
+
+----
+
 * Pour cela, hypothèse de sémantique distributionnelle :
     * deux mots qui présentent des contextes distributionnelles proches sont sémantiquement proches
     * deux mots dont les vecteurs sont proches sont sémantiquement
@@ -139,3 +142,65 @@ vecteur pour j'aime [ 0.04938513 -0.01775371  0.11067609 -0.0548633   0.04522192
 vecteur pour chiens [ 0.1475969  -0.03065392 -0.09074011  0.13107255 -0.09719098]
 [('des', 0.9323765635490417), ('sont', 0.7742035388946533), ('ils', 0.7669143080711365), ("j'aime", 0.46942147612571716), ("m'apportent", 0.4595804810523987)]
 ```
+
+----
+
+### Calcul d'une proximité
+
+* Similarité cosinus
+* distance euclidienne
+* distance de Jaccard
+
+----
+
+### NLP dans le cas DALL-E
+
+* voir approfondissement sur GPT2/3 et réseau de neurones récurrents
+
+---
+
+## Application au computer vision
+
+----
+
+* Buts : 
+  * travailler dans le champ de l'image/vidéo
+  * discriminer/classifier
+  * générer/débruiter/transformer une image
+
+----
+
+### Réseau de neurones convolutifs (CNN)
+
+* particularités :
+  * raisonnement au pixel = grande volumétrie
+  * hypothèse de dépendance spacio-temporelle
+* même principe pour les mots, on souhaite quantifier une image dans R^n
+
+----
+
+### Principe général du CNN
+
+Trois phases/espaces
+
+* [Convolution] une partie réduction de dimension avec l'application de noyaux de convolution
+* arrivée sur un petit espace de dimension R^n et travaux usuel [Couche intégralement connectée] (E.g. classification par des réseaux de neurones classiques)
+* [Déconvolution] si besoin, une partie restitution de l'image, en appliquant les opérations inverses (transposées)
+
+----
+
+### Réduction de dimension par convolution
+
+----
+
+### Computer Vision dans DALL-E
+
+* voir VAE
+
+
+---
+
+## Notions "avancées"
+
+* Transformeurs
+* Mécanisme d'attention
