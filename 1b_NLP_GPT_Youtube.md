@@ -24,3 +24,6 @@
 * vectorisation des contextes de chaque mot => calcule de distance de contexte (vecteur de sens) => similarité de mot
 
 => fléau de la dimension
+
+
+* word embedding playlist / dabounou :  https://www.youtube.com/watch?v=O7KOOaCNUbU&list=PLzjg2z2kYUrinAmDbCTSH6AwwuIS4Ir39
