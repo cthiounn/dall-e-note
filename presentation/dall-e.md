@@ -75,6 +75,10 @@ Un neurone est :
 
 ----
 
+![image_neurone](neurone.png)
+
+----
+
 Combiné à plusieurs, peut modéliser :
 * des portes logiques (ET; OU; NON)
 * fournir une prédiction sur des données linéairement séparables
@@ -88,6 +92,11 @@ Combiné à plusieurs, peut modéliser :
 * Un algorithme permet de minimiser l'erreur (loss fonction)
 * en corrigeant les poids utilisés par les neurones en ordre inverse (backpropagation)
 * par la méthode de la descente du gradient (propriétés liées à la différentiabilité de la fonction de coût)
+
+
+----
+
+![image_MLP](mlp.png)
 
 ---
 
@@ -159,7 +168,7 @@ vecteur pour chiens [ 0.1475969  -0.03065392 -0.09074011  0.13107255 -0.09719098
 
 ---
 
-## Application au computer vision
+## Application au Computer Vision
 
 ----
 
