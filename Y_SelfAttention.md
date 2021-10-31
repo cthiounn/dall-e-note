@@ -1,0 +1,1 @@
+* Transformers - Part 1 - Self-attention: an introduction https://www.youtube.com/watch?v=0SmNEp4zTpc
