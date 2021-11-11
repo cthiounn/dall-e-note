@@ -113,6 +113,24 @@ from transformers import BartConfig
 
 ### data
 
+
+
+* https://github.com/google-research-datasets/conceptual-12m 
+
+
+> utilitaires pour télécharger et transformer les images CC3M et CC12M, qui sont des images avec description
+
+* CC3M_downloader.py
+* usage : python CC3M_downloader.py Train-GCC-training.tsv training
+
+* input : fichier tsv avec les noms des fichiers + répertoire où se trouve les fichiers
+* résultat : sauvegarde les images transformées par torchvision.transforms  (RGB, redimensionnement avec interpolation Lanczos)
+
+
+
+* CC12M_downloader.py
+* meme chose mais avec les images après 10 000 000 ?
+
 ### encoding
 
 ### inference
