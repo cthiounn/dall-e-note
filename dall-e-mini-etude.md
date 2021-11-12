@@ -133,8 +133,23 @@ from transformers import BartConfig
 
 ### encoding
 
+> plusieurs notebook pour encoder les images selon différents cas d'utilisation
+
+* vqgan-jax-encoding-streaming.ipynb
+> en mode streaming (dalle-mini/YFCC100M_OpenAI_subset) avec VQGAN préentrainé sur flax-community/vqgan_f16_16384
+* vqgan-jax-encoding-webdataset.ipynb
+>  avec un webdataset et VQGAN préentrainé sur flax-community/vqgan_f16_16384
+* vqgan-jax-encoding-with-captions.ipynb
+> avec un CaptionDataset (CC12M) avec VQGAN préentrainé sur flax-community/vqgan_f16_16384
+* vqgan-jax-encoding-yfcc100m.ipynb
+> avec un CaptionDataset (YFCC100M_OpenAI_subset) avec VQGAN préentrainé sur flax-community/vqgan_f16_16384
+* vqgan-jax-encoding.ipynb
+> encodage avec VQGAN préentrainé sur valhalla/vqgan-imagenet-f16-1024
+
 ### inference
 
 ### seq2seq
 
 ### vqgan
+
+> un notebook pour tester l'encodage et le decodage à partir du modèle VQGAN préentrainé flax-community/vqgan_f16_16384
