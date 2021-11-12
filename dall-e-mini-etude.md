@@ -150,6 +150,12 @@ from transformers import BartConfig
 
 ### seq2seq
 
+> facebook/bart-large-cnn
+
+* deux scripts lancant l'un le transformer avec un petit jeu de données (CC3M) et l'autre sur un grand jeu de données
+
+* run_seq2seq_flax.py
+
 ### vqgan
 
 > un notebook pour tester l'encodage et le decodage à partir du modèle VQGAN préentrainé flax-community/vqgan_f16_16384
